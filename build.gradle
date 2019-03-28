@@ -16,6 +16,9 @@ repositories {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation "net.dv8tion:JDA:3.8.3_462"
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.26'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.26'
 }
 
 compileKotlin {
